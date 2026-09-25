@@ -1,5 +1,14 @@
 function ProjectsPage() {
   const projects = [
+   
+    {
+      name: 'Portfolio',
+      stack: 'React · JavaScript · Vite · Docker · Nginx',
+      description:
+        'Portfólio pessoal desenvolvido com React e Vite, preparado para execução em produção com Docker e Nginx.',
+      href: 'https://github.com/lincolnhammed/meu-portfolio',
+    },
+
     {
       name: 'TodoList',
       stack: 'Java · Spring Boot · MySQL · Docker',
